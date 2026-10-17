@@ -1,0 +1,23 @@
+{
+  "name": "tnldp",
+  "version": "1.0.0",
+  "description": "The New Linux Documentation Project. A website teaching various topics on Linux.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MemphisThoth/tnldp.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MemphisThoth/tnldp/issues"
+  },
+  "homepage": "https://github.com/MemphisThoth/tnldp#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.7"
+  }
+}
